@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8040" started-at="2020-03-22T02:30:58 EET" finished-at="2020-03-22T02:31:06 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8040" started-at="2020-03-22T02:30:58 EET" finished-at="2020-03-22T02:31:06 EET">
+      <class name="tests.placesearchtest">
+        <test-method status="PASS" signature="startdriver()[pri:0, instance:tests.placesearchtest@9660f4e]" name="startdriver" is-config="true" duration-ms="15568" started-at="2020-03-22T02:30:42 EET" finished-at="2020-03-22T02:30:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method status="FAIL" signature="UserSearch()[pri:0, instance:tests.placesearchtest@9660f4e]" name="UserSearch" duration-ms="7968" started-at="2020-03-22T02:30:58 EET" finished-at="2020-03-22T02:31:06 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wonderful expected [Very Good] but found [Wonderful]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wonderful expected [Very Good] but found [Wonderful]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at pages.SearchPage.SearchPage(SearchPage.java:68)
+at tests.placesearchtest.UserSearch(placesearchtest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserSearch -->
+        <test-method status="PASS" signature="stopdriver()[pri:0, instance:tests.placesearchtest@9660f4e]" name="stopdriver" is-config="true" duration-ms="0" started-at="2020-03-22T02:31:06 EET" finished-at="2020-03-22T02:31:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- tests.placesearchtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
